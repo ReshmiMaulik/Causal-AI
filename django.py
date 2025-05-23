@@ -8,11 +8,18 @@ from dowhy import CausalModel
 import numpy as np
 import pandas as pd
 
+# Data files are uploaded
+from google.colab import files
+uploaded = files.upload()
+
+# Read Data file
+df = pd.read_csv('django.csv')
+
 # Import data from Github
 
-url="https://raw.githubusercontent.com/sunnysong14/ContinualPerformanceValidityTSE2022/main/data/django.csv"
+#url="https://raw.githubusercontent.com/sunnysong14/ContinualPerformanceValidityTSE2022/main/data/django.csv"
 
-df = pd.read_csv(url, sep=",")
+#df = pd.read_csv(url, sep=",")
 
 print(df.shape)
 df.head()
