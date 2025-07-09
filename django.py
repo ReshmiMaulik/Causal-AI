@@ -17,7 +17,7 @@ df = pd.read_csv('django.csv')
 
 # Import data from Github
 
-#url="https://raw.githubusercontent.com/sunnysong14/ContinualPerformanceValidityTSE2022/main/data/django.csv"
+
 
 #df = pd.read_csv(url, sep=",")
 
